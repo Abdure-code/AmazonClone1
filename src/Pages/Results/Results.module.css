@@ -1,0 +1,14 @@
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Creates a flexible grid */
+  max-width: 1450px;
+  margin: 100px auto; /* Centers the grid with a top and bottom margin */
+  gap: 50px; /* Spacing between grid items */
+  justify-items: center; /* Centers grid items horizontally */
+  align-items: center; /* Optionally centers items vertically within their grid cell */
+}
+
+.products-container section {
+  /* This may not be needed unless targeting specific elements inside */
+  margin: 0 auto;
+}
